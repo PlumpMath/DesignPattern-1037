@@ -24,7 +24,3 @@ class Facade(object):
 
 			cache.save(temperature_celcius)
 			return temperature_celcius
-
-if __name__ == "__main__":
-	facade = Facade()
-	print facade.get_forecast('London','UK')
